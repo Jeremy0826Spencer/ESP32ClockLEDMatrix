@@ -22,8 +22,8 @@ Adafruit_Protomatter matrix(
 );
 
 // ────── WIFI / NTP / SERVER SETUP ──────
-const char* SSID     = "1";
-const char* PASSWORD = "Spencer1";
+const char* SSID     = "SSID";
+const char* PASSWORD = "WiFiPassword";
 
 const long  UTC_OFFSET = -5 * 3600;
 WiFiUDP   ntpUDP;
